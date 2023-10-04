@@ -1,29 +1,59 @@
-<ul>
-  <li>
-    <a href="#">Northeastern</a>
-  </li>
-  <li>
-    <a href="#">Account</a>
-  </li>
-  <li>
-    <a href="#">Dashboard</a>
-  </li>
-  <li>
-    <a href="#">Calandar</a>
-  </li>
-  <li>
-    <a href="#">Inbox</a>
-  </li>
-  <li>
-    <a href="#">History</a>
-  </li>
-  <li>
-    <a href="#">Studio</a>
-  </li>
-  <li>
-    <a href="#">Commons</a>
-  </li>
-  <li>
-    <a href="#">Help</a>
-  </li>
-</ul>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link href="../../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="../../../vendors/fontawesome/css/all.css" rel="stylesheet" />
+		<link href="../../index.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="container-fluid flex-column">
+			<div class="row d-flex align-items-center justify-content-end w-100">
+				<a href="./home.html" class="w-auto">
+					<i class="fas fa-times w-auto text-secondary"></i>
+				</a>
+			</div>
+
+			<div class="row list-group small-kanbas-navigation d-sm-flex">
+				<a href="../../dashboard/index.html" class="list-group-item text-start p-2">
+					<i class="fas fa-tachometer-alt" class="mx-auto mb-2"></i>
+					<span class="p-0">Dashboard</span>
+				</a>
+				<a href="../../profile/index.html" class="list-group-item text-start p-2">
+					<i class="fas fa-user-circle text-secondary" class="mx-auto mb-2"></i>
+					<span>Account</span>
+				</a>
+				<a href="./home.html" class="list-group-item text-start p-2 active">
+					<i class="fas fa-book" class="mx-auto mb-2"></i>
+					<span>Courses</span>
+				</a>
+				<a href="#" class="list-group-item text-start p-2">
+					<i class="fas fa-calendar-alt" class="mx-auto mb-2"></i>
+					<span>Calendar</span>
+				</a>
+				<a href="#" class="list-group-item text-start p-2">
+					<i class="fas fa-inbox" class="mx-auto mb-2"></i>
+					<span>Inbox</span>
+				</a>
+				<a href="#" class="list-group-item text-start p-2">
+					<i class="fas fa-clock" class="mx-auto mb-2"></i>
+					<span>History</span>
+				</a>
+				<a href="#" class="list-group-item text-start p-2">
+					<i class="fas fa-desktop" class="mx-auto mb-2"></i>
+					<span>Studio</span>
+				</a>
+				<a href="#" class="list-group-item text-start p-2">
+					<i class="fas fa-arrow-alt-circle-right" class="mx-auto mb-2"></i>
+					<span>Commons</span>
+				</a>
+				<a href="#" class="list-group-item text-start p-2">
+					<i class="fas fa-question-circle" class="mx-auto mb-2"></i>
+					<span>Help</span>
+				</a>
+			</div>
+		</div>
+	</body>
+</html>
