@@ -1,246 +1,317 @@
-<table width="100%">
-  <tr>
-    <td valign="top">        
-      <ul>
-      <li>
-        <a href="/Kanbas/Profile/index.html">Account</a>
-      </li>
-      <li>
-        <a href="#">Dashboard</a>
-      </li>
-      <li>
-        <a href="/Kanbas/Courses/Home/index.html">Courses</a>
-      </li>
-      <li>
-        <a href="#">Calandar</a>
-      </li>
-      <li>
-        <a href="#">Inbox</a>
-      </li>
-      <li>
-        <a href="#">History</a>
-      </li>
-      <li>
-        <a href="#">Studio</a>
-      </li>
-      <li>
-        <a href="#">Commons</a>
-      </li>
-      <li>
-        <a href="#">Help</a>
-      </li>
-    </ul>
-  </td>
-    <td valign="top">
-      <ul>
-      <li>
-        <a href="/Kanbas/Courses/Home/index.html">Home</a>
-      </li>
-      <li>
-        <a href="#">Modules</a>
-      </li>
-      <li>
-        <a href="#">Piazza</a>
-      </li>
-      <li>
-        <a href="#">Zoom Meetings</a>
-      </li>
-      <li>
-        <a href="/Kanbas/Courses/Assignments/index.html">Assignments</a>
-      </li>
-      <li>
-        <a href="#">Quizzes</a>
-      </li>
-      <li>
-        <a href="/Kanbas/Courses/Grades">Grades</a>
-      </li>
-      <li>
-        <a href="#">People</a>
-      </li>
-      <li>
-        <a href="#">Panopto Video</a>
-      </li>
-      <li>
-        <a href="#">Discussions</a>
-      </li>
-      <li>
-        <a href="#">Announcements</a>
-      </li>
-      <li>
-        <a href="#">Pages</a>
-      </li>
-      <li>
-        <a href="#">Files</a>
-      </li>
-      <li>
-        <a href="#">Rubrics</a>
-      </li>
-      <li>
-        <a href="#">Outcomes</a>
-      </li>
-      <li>
-        <a href="#">Collaborations</a>
-      </li>
-      <li>
-        <a href="#">Syllabus</a>
-      </li>
-      <li>
-        <a href="#">Settings</a>
-      </li>
-    </ul>
-  </td>
-    
-  <td valign="top">
-    <input type="text" placeholder="Search for Assignments">
-    <button>Group</button>
-    <button>Assignment</button>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link href="../../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="../../../vendors/fontawesome/css/all.css" rel="stylesheet" />
+		<link href="../../index.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div class="list-group kanbas-navigation d-none d-sm-block">
+			<img
+				src="../../images/northeastern-logo.png"
+				class="list-group-item p-0"
+				alt="Northeastern Logo"
+			/>
+			<a href="../../profile/index.html" class="list-group-item text-center p-2">
+				<i class="fas fa-user-circle text-secondary" class="mx-auto mb-2"></i>
+				<div>Account</div>
+			</a>
+			<a href="../../dashboard/index.html" class="list-group-item text-center p-2">
+				<i class="fas fa-tachometer-alt" class="mx-auto mb-2"></i>
+				<div class="p-0">Dashboard</div>
+			</a>
+			<a href="../home/home.html" class="list-group-item text-center p-2 active">
+				<i class="fas fa-book" class="mx-auto mb-2"></i>
+				<div>Courses</div>
+			</a>
+			<a href="#" class="list-group-item text-center p-2">
+				<i class="fas fa-calendar-alt" class="mx-auto mb-2"></i>
+				<div>Calendar</div>
+			</a>
+			<a href="#" class="list-group-item text-center p-2">
+				<i class="fas fa-inbox" class="mx-auto mb-2"></i>
+				<div>Inbox</div>
+			</a>
+			<a href="#" class="list-group-item text-center p-2">
+				<i class="fas fa-clock" class="mx-auto mb-2"></i>
+				<div>History</div>
+			</a>
+			<a href="#" class="list-group-item text-center p-2">
+				<i class="fas fa-desktop" class="mx-auto mb-2"></i>
+				<div>Studio</div>
+			</a>
+			<a href="#" class="list-group-item text-center p-2">
+				<i class="fas fa-arrow-alt-circle-right" class="mx-auto mb-2"></i>
+				<div>Commons</div>
+			</a>
+			<a href="#" class="list-group-item text-center p-2">
+				<i class="fas fa-question-circle" class="mx-auto mb-2"></i>
+				<div>Help</div>
+			</a>
+		</div>
+		<div class="container-fluid">
+			<div class="row courses-content">
+				<div class="row courses-heading d-none d-sm-flex">
+					<div class="col-1">
+						<i class="fas fa-bars"></i>
+					</div>
+					<div class="col-10">
+						<nav style="--bs-breadcrumb-divider: '>'" aria-label="breadcrumb">
+							<ol class="breadcrumb">
+								<li class="breadcrumb-item"><a href="#">CS4550.12631.202410</a></li>
+								<li class="breadcrumb-item active" aria-current="page">Assignments</li>
+							</ol>
+						</nav>
+					</div>
+					<div class="col-1">
+						<button type="button" class="btn btn-light text-nowrap">
+							<i class="fas fa-glasses"></i>
+							Student View
+						</button>
+					</div>
+					<hr />
+				</div>
 
-      <select>
-        <option>Edit Assignment Dates</option>
-      </select>
+				<div class="list-group courses-navigation col-2 col-lg-2 d-none d-md-block">
+					<p class="text-truncate mx-2">
+						<small class="text-muted">202410_1 Fall Semester Full Term</small>
+					</p>
+					<a href="../home/home.html" class="list-group-item">
+						<div>Home</div>
+					</a>
+					<a href="#" class="list-group-item">
+						<div>Modules</div>
+					</a>
+					<a href="#" class="list-group-item">
+						<div>Piazza</div>
+					</a>
+					<a href="#" class="list-group-item">
+						<div>Zoom Meetings</div>
+					</a>
+					<a href="./index.html" class="list-group-item active">
+						<div>Assignments</div>
+					</a>
+					<a href="#" class="list-group-item">
+						<div>Quizzes</div>
+					</a>
+					<a href="../grades/grades.html" class="list-group-item">
+						<div>Grades</div>
+					</a>
+					<a href="#" class="list-group-item">
+						<div>People</div>
+					</a>
+					<a href="#" class="list-group-item">
+						<div>Panopto Video</div>
+					</a>
+					<a href="#" class="list-group-item">
+						<div>Discussions</div>
+					</a>
+					<a href="#" class="list-group-item">
+						<div>Panopto Video</div>
+					</a>
+					<a href="#" class="list-group-item">
+						<div>Announcements</div>
+					</a>
+					<a href="#" class="list-group-item">
+						<div>Pages</div>
+					</a>
+					<a href="#" class="list-group-item">
+						<div>Files</div>
+					</a>
+					<a href="#" class="list-group-item">
+						<div>Rubrics</div>
+					</a>
+					<a href="#" class="list-group-item">
+						<div>Outcomes</div>
+					</a>
+					<a href="#" class="list-group-item">
+						<div>Collaborations</div>
+					</a>
+					<a href="#" class="list-group-item">
+						<div>Announcements</div>
+					</a>
+					<a href="#" class="list-group-item">
+						<div>Syllabus</div>
+					</a>
+					<a href="#" class="list-group-item">
+						<div>Progress Reports(EAB Navigate)</div>
+					</a>
+					<a href="#" class="list-group-item">
+						<div>Settings</div>
+					</a>
+				</div>
+				<div class="courses-assignment-info col-10">
+					<div class="d-flex justify-content-between align-items-center">
+						<div class="form-group w-25">
+							<input type="text" class="form-control" placeholder="Search for Assignment" />
+						</div>
+						<div class="d-flex">
+							<button type="button" class="btn btn-light text-nowrap m-1">
+								<i class="fas fa-plus"></i> Group
+							</button>
 
-      <hr>
+							<button type="button" class="btn btn-danger m-1">
+								<i class="fas fa-plus"></i> Assignment
+							</button>
 
-      <table>
-        <tr>
-          <td valign="top"><h3>ASSIGNMENTS 40% of Total</h3></td>
-          <td valign="top">
-            <select>
-              <option>Edit</option>
-              <option>Speed Grader</option>
-              <option>Duplicate</option>
-              <option>Delete</option>
-              <option>Move To...</option>
-              <option>Send To...</option>
-              <option>Copy To...</option>
-              <option>Share to Commons</option>
-            </select>
-          </td>
-        </tr>
-      </table>
-
-      <ul>
-        <li>
-          <a href="/Kanbas/Courses/Assignments/edit.html">A1 - ENV + HTML</a> 
-        </li>
-        <a href="#">Multiple Modules</a> | Not available yet
-        <li>
-          <a href="/Kanbas/Courses/Assignments/edit.html">A2 - CSS + BOOTSTRAP</a> 
-        </li>
-        <a href="#">Multiple Modules</a> | Not available yet
-        <li>
-          <a href="/Kanbas/Courses/Assignments/edit.html">A3 - JS + REACT</a> 
-        </li>
-        <a href="#">Multiple Modules</a> | Not available yet
-        <li>
-          <a href="/Kanbas/Courses/Assignments/edit.html">A4 - STATE + REDUX</a> 
-        </li>
-        <a href="#">Multiple Modules</a> | Not available yet
-        <li>
-          <a href="/Kanbas/Courses/Assignments/edit.html">A5 - NODE + SESSION</a> 
-        </li>
-        <a href="#">Multiple Modules</a> | Not available yet
-        <li>
-          <a href="/Kanbas/Courses/Assignments/edit.html">A6 - MONGO + MONGOOSE</a> 
-        </li>
-        <a href="#">Multiple Modules</a> | Not available yet
-      </ul>
-
-
-      <table>
-        <tr>
-          <td valign="top"><h3>QUIZZES 10% of Total</h3></td>
-          <td valign="top">
-            <select>
-              <option>Edit</option>
-              <option>Speed Grader</option>
-              <option>Duplicate</option>
-              <option>Delete</option>
-              <option>Move To...</option>
-              <option>Send To...</option>
-              <option>Copy To...</option>
-              <option>Share to Commons</option>
-            </select>
-          </td>
-        </tr>
-      </table>
-
-      <ul>
-        <li>
-          <a href="/Kanbas/Courses/Assignments/edit.html">A1 - HTML</a> 
-        </li>
-        <a href="#">Multiple Modules</a> | Not available yet
-        <li>
-          <a href="/Kanbas/Courses/Assignments/edit.html">A2 - CSS</a> 
-        </li>
-        <a href="#">Multiple Modules</a> | Not available yet
-        <li>
-          <a href="/Kanbas/Courses/Assignments/edit.html">A3 - JS</a>, <a href="#">ES6</a> 
-        </li>
-        <a href="#">Multiple Modules</a> | Not available yet
-        <li>
-          <a href="/Kanbas/Courses/Assignments/edit.html">A4 - NODE</a> 
-        </li>
-        <a href="#">Multiple Modules</a> | Not available yet
-        <li>
-          <a href="/Kanbas/Courses/Assignments/edit.html">A5 - MONGO</a> 
-        </li>
-        <a href="#">Multiple Modules</a> | Not available yet
-      </ul>
-
-      <table>
-        <tr>
-          <td valign="top"><h3>EXAMS 20% of Total</h3></td>
-          <td valign="top">
-            <select>
-              <option>Edit</option>
-              <option>Speed Grader</option>
-              <option>Duplicate</option>
-              <option>Delete</option>
-              <option>Move To...</option>
-              <option>Send To...</option>
-              <option>Copy To...</option>
-              <option>Share to Commons</option>
-            </select>
-          </td>
-        </tr>
-      </table>
-
-      <ul>
-        <li>
-          <a href="/Kanbas/Courses/Assignments/edit.html">Midterm</a> 
-        </li>
-        <a href="#">Multiple Modules</a> | Not available yet
-        <li>
-          <a href="/Kanbas/Courses/Assignments/edit.html">Final</a> 
-        </li>
-        <a href="#">Multiple Modules</a> | Not available yet
-      </ul>
-
-      <table>
-        <tr>
-          <td valign="top"><h3>PROJECTS 30% of Total</h3></td>
-          <td valign="top">
-            <select>
-              <option>Edit</option>
-              <option>Speed Grader</option>
-              <option>Duplicate</option>
-              <option>Delete</option>
-              <option>Move To...</option>
-              <option>Send To...</option>
-              <option>Copy To...</option>
-              <option>Share to Commons</option>
-            </select>
-          </td>
-        </tr>
-      </table>
-
-      <ul>
-        <li>
-          <a href="/Kanbas/Courses/Assignments/edit.html">Project</a> 
-        </li>
-        <a href="#">Multiple Modules</a> | Not available yet
-      </ul>
-
-
-       
+							<button type="button" class="btn btn-light m-1">
+								<i class="fas fa-ellipsis-v"></i>
+							</button>
+						</div>
+					</div>
+					<hr />
+					<div class="list-group pt-2 modules">
+						<div class="list-group-item list-group-item-dark py-3">
+							<i class="fas fa-grip-vertical"></i>
+							<i class="fas fa-caret-down p-1"></i>
+							Assignments
+							<div class="float-end">
+								<i class="fas fa-check-circle text-success"></i>
+								<i class="fas fa-caret-down"></i>
+								<i class="fas fa-plus fa-sm ps-3"></i>
+								<i class="fas fa-ellipsis-v ps-3"></i>
+							</div>
+						</div>
+						<div class="list-group-item">
+							<div class="row align-items-center">
+								<div class="col-auto">
+									<i class="fas fa-grip-vertical pe-3"></i>
+									<i class="fas fa-book text-success"></i>
+								</div>
+								<div class="col">
+									<div>
+										<a href="./edit.html" class="text-black">A1 SETPUP</a>
+									</div>
+									<div><small class="text-secondary">Week 0 - SETUP</small></div>
+									<div>
+										<small class="text-secondary">
+											<b>Due</b>
+											Sept 18, 2022 at 11:59pm | 100 pts
+										</small>
+									</div>
+								</div>
+								<div class="col-auto">
+									<i class="fas fa-check-circle text-success"></i>
+									<i class="fas fa-ellipsis-v ps-3"></i>
+								</div>
+							</div>
+						</div>
+						<div class="list-group-item">
+							<div class="row align-items-center">
+								<div class="col-auto">
+									<i class="fas fa-grip-vertical pe-3"></i>
+									<i class="fas fa-book text-success"></i>
+								</div>
+								<div class="col">
+									<div><a href="./edit.html" class="text-black">A2 HTML</a></div>
+									<div><small class="text-secondary">Week 2 - HTML</small></div>
+									<div>
+										<small class="text-secondary">
+											<b>Due</b>
+											Sept 25, 2022 at 11:59pm | 100 pts
+										</small>
+									</div>
+								</div>
+								<div class="col-auto">
+									<i class="fas fa-check-circle text-success"></i>
+									<i class="fas fa-ellipsis-v ps-3"></i>
+								</div>
+							</div>
+						</div>
+						<div class="list-group-item">
+							<div class="row align-items-center">
+								<div class="col-auto">
+									<i class="fas fa-grip-vertical pe-3"></i>
+									<i class="fas fa-book text-success"></i>
+								</div>
+								<div class="col">
+									<div><a href="./edit.html" class="text-black">A3 CSS</a></div>
+									<div><small class="text-secondary">Week 3 - CSS</small></div>
+									<div>
+										<small class="text-secondary">
+											<b>Due</b>
+											Oct 2, 2022 at 11:59pm | 100 pts
+										</small>
+									</div>
+								</div>
+								<div class="col-auto">
+									<i class="fas fa-check-circle text-success"></i>
+									<i class="fas fa-ellipsis-v ps-3"></i>
+								</div>
+							</div>
+						</div>
+						<div class="list-group-item">
+							<div class="row align-items-center">
+								<div class="col-auto">
+									<i class="fas fa-grip-vertical pe-3"></i>
+									<i class="fas fa-book text-success"></i>
+								</div>
+								<div class="col">
+									<div><a href="./edit.html" class="text-black">A4 BOOTSTRAP</a></div>
+									<div><small class="text-secondary">Week 4 - Bootstrap</small></div>
+									<div>
+										<small class="text-secondary">
+											<b>Due</b>
+											Oct 10, 2022 at 11:59pm | 100 pts
+										</small>
+									</div>
+								</div>
+								<div class="col-auto">
+									<i class="fas fa-check-circle text-success"></i>
+									<i class="fas fa-ellipsis-v ps-3"></i>
+								</div>
+							</div>
+						</div>
+						<div class="list-group-item">
+							<div class="row align-items-center">
+								<div class="col-auto">
+									<i class="fas fa-grip-vertical pe-3"></i>
+									<i class="fas fa-book text-success"></i>
+								</div>
+								<div class="col">
+									<div><a href="./edit.html" class="text-black">A5 JAVASCRIPT</a></div>
+									<div><small class="text-secondary">Week 4 - Javascript</small></div>
+									<div>
+										<small class="text-secondary">
+											<b>Due</b>
+											Oct 16, 2022 at 11:59pm | 100 pts
+										</small>
+									</div>
+								</div>
+								<div class="col-auto">
+									<i class="fas fa-check-circle text-success"></i>
+									<i class="fas fa-ellipsis-v ps-3"></i>
+								</div>
+							</div>
+						</div>
+						<div class="list-group-item">
+							<div class="row align-items-center">
+								<div class="col-auto">
+									<i class="fas fa-grip-vertical pe-3"></i>
+									<i class="fas fa-book text-success"></i>
+								</div>
+								<div class="col">
+									<div><a href="./edit.html" class="text-black">A6 REACT</a></div>
+									<div><small class="text-secondary">Week 5 - React and Routing</small></div>
+									<div>
+										<small class="text-secondary">
+											<b>Due</b>
+											OCt 23, 2022 at 11:59pm | 100 pts
+										</small>
+									</div>
+								</div>
+								<div class="col-auto">
+									<i class="fas fa-check-circle text-success"></i>
+									<i class="fas fa-ellipsis-v ps-3"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
