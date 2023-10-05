@@ -62,52 +62,6 @@
 	border-left: 2px solid black;
 }
 
-.profile-content {
-	padding: 20px 20px 0px 30px;
-}
-
-.profile-heading {
-	height: max-content;
-}
-
-.profile-name {
-	font-size: 24px;
-}
-
-.profile-info > i {
-	font-size: 120px;
-}
-
-a {
-	text-decoration: none;
-	color: red;
-}
-
-.profile-info p {
-	font-size: 12px;
-}
-
-.btn-light {
-	border-color: grey;
-}
-
-.btn {
-	font-size: 12px;
-}
-
-.profile-editing > i {
-	font-size: 120px;
-}
-
-.profile-editing .btn-danger {
-	font-size: 12px;
-}
-
-.dashboard-content {
-	padding: 20px 20px 0px 30px;
-	flex: 1;
-}
-
 .published-courses-heading {
 	padding: 10px 20px 0px 20px;
 }
@@ -153,6 +107,52 @@ a {
 	color: black;
 	background: white;
 	border-left: 2px solid black;
+}
+
+.profile-content {
+	padding: 20px 20px 0px 30px;
+}
+
+.profile-heading {
+	height: max-content;
+}
+
+.profile-name {
+	font-size: 24px;
+}
+
+.profile-info > i {
+	font-size: 120px;
+}
+
+a {
+	text-decoration: none;
+	color: red;
+}
+
+.profile-info p {
+	font-size: 12px;
+}
+
+.btn-light {
+	border-color: grey;
+}
+
+.btn {
+	font-size: 12px;
+}
+
+.profile-editing > i {
+	font-size: 120px;
+}
+
+.profile-editing .btn-danger {
+	font-size: 12px;
+}
+
+.dashboard-content {
+	padding: 20px 20px 0px 30px;
+	flex: 1;
 }
 
 .modules .list-group-item:not(.list-group-item-dark) {
