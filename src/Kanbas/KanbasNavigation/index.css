@@ -1,0 +1,36 @@
+.kanbas-navigation {
+	background: black;
+	border-radius: 0px;
+	border: none;
+	height: 100%;
+	width: 85px;
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	top: 0;
+	left: 0;
+}
+
+.kanbas-navigation .list-group-item {
+	background-color: black;
+	color: white;
+	border-radius: 0px;
+	border: none;
+	width: 100%;
+	padding: 10px 0px;
+}
+
+.list-group-item .link-icon {
+	color: red;
+}
+
+.list-group-item .link-name {
+	font-size: 14px;
+}
+
+.kanbas-navigation .list-group-item.active {
+	background-color: white;
+	color: red;
+}

@@ -1,0 +1,17 @@
+.courses-navigation {
+	width: 200px;
+	padding-left: 10px;
+}
+
+.courses-navigation .list-group-item {
+	border-radius: 0px;
+	border: none;
+	color: red;
+	padding-left: 5px;
+}
+
+.courses-navigation .list-group-item.active {
+	color: black;
+	background: white;
+	border-left: 2px solid black;
+}

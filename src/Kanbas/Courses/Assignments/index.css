@@ -1,0 +1,3 @@
+.modules .list-group-item:not(.list-group-item-dark) {
+	border-left: 3px solid green;
+}

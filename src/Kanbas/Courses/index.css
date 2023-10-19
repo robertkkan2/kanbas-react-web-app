@@ -1,0 +1,20 @@
+.container-fluid {
+	display: flex;
+	flex-direction: row;
+	width: calc(100% - 85px);
+	min-height: 100vh;
+	margin-left: 85px;
+	padding-left: 25px;
+}
+
+.courses-content {
+	padding: 20px 20px 0px 0px;
+	flex: 1;
+	width: 100%;
+}
+
+.courses-heading > div > i {
+	color: red;
+	font-size: 25px;
+	padding-right: 20px;
+}

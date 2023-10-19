@@ -1,0 +1,30 @@
+.dashboard-container {
+	display: flex;
+	flex-direction: row;
+	width: calc(100% - 85px);
+	min-height: 100vh;
+	margin-left: 85px;
+	padding-left: 25px;
+}
+
+.link-no-decoration {
+	text-decoration: none;
+}
+
+.dashboard-content {
+	padding: 20px 20px 0px 30px;
+	flex: 1;
+}
+
+.published-course-header {
+	padding: 30px 20px 20px 10px;
+}
+
+.course-card .card-header {
+	padding-top: 150px;
+}
+
+.course-column {
+	margin: 10px;
+	width: 270px;
+}
