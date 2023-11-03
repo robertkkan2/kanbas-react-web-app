@@ -1,7 +1,7 @@
 import { FaBars, FaGlasses } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-const CourseHeader = ({ courseId, courseName, activePage }) => (
+const CourseHeading = ({ courseId, courseName, activePage }) => (
 	<>
 		<div className="row courses-heading d-none d-sm-flex">
 			<div className="col-1">
@@ -35,4 +35,4 @@ const CourseHeader = ({ courseId, courseName, activePage }) => (
 	</>
 );
 
-export default CourseHeader;
+export default CourseHeading;
