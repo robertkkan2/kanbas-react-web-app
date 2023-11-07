@@ -1,4 +1,4 @@
-.dashboard-container {
+.my-container-fluid {
 	display: flex;
 	flex-direction: row;
 	width: calc(100% - 85px);
@@ -7,7 +7,7 @@
 	padding-left: 25px;
 }
 
-.link-no-decoration {
+a {
 	text-decoration: none;
 }
 
@@ -16,15 +16,15 @@
 	flex: 1;
 }
 
-.published-course-header {
+.published-courses-heading {
 	padding: 30px 20px 20px 10px;
 }
 
-.course-card .card-header {
+.courses-cards .card .card-header {
 	padding-top: 150px;
 }
 
-.course-column {
+.courses-cards .col {
 	margin: 10px;
 	width: 270px;
 }
